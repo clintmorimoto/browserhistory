@@ -1,0 +1,27 @@
+/*
+Now create definitions in your style.css file and references in your index.html to improve the presentation of your page as follows:
+
+The font for all headings should be Oswald.
+The font for non-heading text should be Open Sans.
+The font color should be DarkBlue.
+The top and bottom margins should be 10 px.
+The left and right margins should be 50 px.
+The background color should be Ivory.
+The logos should be inline with the text.
+*/
+
+body {
+  color: darkblue;
+  font-family: "Open Sans", sans-serif;
+  margin: 10px 50px 10px 50px;
+  background-color: Ivory;
+}
+
+h1, h2 {
+  font-family: "Oswald", sans-serif;
+}
+
+img {
+  float: left;
+  margin-right: 20px;
+}
