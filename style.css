@@ -11,10 +11,10 @@ The logos should be inline with the text.
 */
 
 body {
-  color: darkgreen;
+  color: white;
   font-family: "Open Sans", sans-serif;
   margin: 10px 50px 10px 50px;
-  background-color: Ivory;
+  background-color: black;
 }
 
 h1, h2 {
@@ -40,8 +40,8 @@ img {
 }
 
 .center {
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 600px;
+  margin-right: 600px;
   padding: 10px;
 }
 
