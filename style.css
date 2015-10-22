@@ -1,83 +1,15 @@
-/*
-Now create definitions in your style.css file and references in your index.html to improve the presentation of your page as follows:
-
-The font for all headings should be Oswald.
-The font for non-heading text should be Open Sans.
-The font color should be DarkBlue.
-The top and bottom margins should be 10 px.
-The left and right margins should be 50 px.
-The background color should be Ivory.
-The logos should be inline with the text.
-*/
-
 body {
-  color: darkgreen;
-  font-family: "Open Sans", sans-serif;
-  margin: 10px 50px 10px 50px;
-  background-color: Ivory;
+  padding-top: 100px;  /* Move body of page below navbar. */
+  background-color: beige;
 }
 
-h1, h2 {
-  font-family: "Oswald", sans-serif;
+.page-content {
+  padding: 10px;
+  text-align: center;
 }
 
 img {
   float: left;
-  margin-right: 20px;
+  margin-right: 10px;
 }
-
-/* NOTE: Classes are defined in css with a '.' before the class name. */
-.left {
-  float: left;
-  width: 300px;
-  padding: 10px;
-}
-
-.right {
-  float: right;
-  width: 300px;
-  padding: 10px;
-}
-
-.center {
-  margin-left: 300px;
-  margin-right: 300px;
-  padding: 10px;
-}
-
-/* NOTE: '#' is used to define an id.  ...So '.' is for classes, and '#' is for id's. */
-#navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-/* Here, we modify the way the navbar LIsts things, using "li": */
-#navbar li {
-  display: inline;
-}
-
-/* Next, we modify the margins surrounding links.  Note that the keyword for links is "a": */
-#navbar a {
-  margin-left: 25px;
-  margin-right: 25px;
-}
-
-
-.links {
-  text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
